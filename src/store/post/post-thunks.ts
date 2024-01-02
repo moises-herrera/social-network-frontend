@@ -21,7 +21,7 @@ import { AsyncThunkConfig } from "src/store/types";
  * Get posts.
  *
  * @param queryParams The query params.
- * @returns
+ * @returns A list of posts.
  */
 const getPosts = async (
   queryParams: QueryParams

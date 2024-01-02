@@ -4,9 +4,10 @@ import { uiSlice } from "src/store/ui";
 import { postSlice } from "src/store/post";
 import { emailSlice } from "src/store/email";
 import { TypedUseSelectorHook, useSelector } from "react-redux";
-import { usersSlice } from "./users";
-import { commentSlice } from "./comment";
-import { chatSlice } from "./chats";
+import { usersSlice } from "src/store/users";
+import { commentSlice } from "src/store/comment";
+import { chatSlice } from "src/store/chats";
+import { notificationsSlice } from "src/store/notifications";
 
 /**
  * Redux store.
@@ -20,6 +21,7 @@ export const store = configureStore({
     users: usersSlice.reducer,
     comment: commentSlice.reducer,
     chats: chatSlice.reducer,
+    notifications: notificationsSlice.reducer,
   },
 });
 

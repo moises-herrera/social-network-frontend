@@ -39,3 +39,5 @@ export * from "./send-message.interface";
 export * from "./create-chat.interface";
 export * from "./create-post.interface";
 export * from "./file-stored.interface";
+export * from "./notification.interface";
+export * from "./notifications-state.interface";
